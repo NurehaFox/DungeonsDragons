@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softwareproject.dungeonsdragons">
+
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".DMActivity"
+            android:screenOrientation="reverseLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="reverseLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NotesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NPCActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PartyMembersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RulesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MonstersActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".DMMainScreenActivity"
+            android:screenOrientation="reverseLandscape"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="items">Items</string>
+    <string name="monsters">Monsters</string>
+    <string name="rules">Rules</string>
+    <string name="notes">Notes</string>
+    <string name="npcs">NPCs</string>
+    <string name="party_members">Party Members</string>
+    <string name="dm_screen">DM Screen</string>
+    <string name="type_here">Type here...</string>
+    <string name="dm">DM</string>
+    <string name="players">Players</string>
+    <string name="app_name">Dungeons&amp;Dragons</string>
+    <string name="sign_out">Sign Out </string>
+    <string name="textView">TextView</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Username">Username</string>
+    <string name="register_now">Register Now</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <!-- Strings related to login -->
+</resources>

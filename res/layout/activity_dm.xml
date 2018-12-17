@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DMActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/sign_up"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginLeft="291dp"
+        android:layout_marginTop="202dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:hint="@string/enter_email_address"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Email"
+        android:layout_alignRight="@+id/Email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="223dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:hint="@string/enter_username"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="131dp"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:layout_alignRight="@+id/Email"
+        android:backgroundTint="#fff"
+        android:textColorHint="#fff"/>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Email"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="734dp"
+        android:layout_marginRight="734dp"
+        android:layout_marginBottom="-194dp"
+        android:background="@drawable/button"
+        android:text="@string/sign_up" />
+
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="731dp"
+        android:layout_marginRight="731dp"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/button"
+        android:text="@string/sign_in" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="768dp"
+        android:layout_marginLeft="768dp"
+        android:layout_marginBottom="218dp" />
+</RelativeLayout>
